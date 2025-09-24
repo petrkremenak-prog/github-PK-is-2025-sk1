@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v9.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v9.0": {
+      "Úkol_3_První_program_C#/1.0.0": {
+        "runtime": {
+          "Úkol_3_První_program_C#.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Úkol_3_První_program_C#/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

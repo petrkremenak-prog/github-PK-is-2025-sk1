@@ -12,3 +12,4 @@ C:\Users\admin\Documents\IS-2025-Sk1\Úkol_3_První_program_C#\obj\Debug\net9.0\
 C:\Users\admin\Documents\IS-2025-Sk1\Úkol_3_První_program_C#\obj\Debug\net9.0\Úkol_3_První_program_C#.pdb
 C:\Users\admin\Documents\IS-2025-Sk1\Úkol_3_První_program_C#\obj\Debug\net9.0\Úkol_3_První_program_C#.genruntimeconfig.cache
 C:\Users\admin\Documents\IS-2025-Sk1\Úkol_3_První_program_C#\obj\Debug\net9.0\ref\Úkol_3_První_program_C#.dll
+C:\Users\admin\Documents\IS-2025-Sk1\Úkol_3_První_program_C#\obj\Debug\net9.0\Úkol_3_První_program_C#.sourcelink.json

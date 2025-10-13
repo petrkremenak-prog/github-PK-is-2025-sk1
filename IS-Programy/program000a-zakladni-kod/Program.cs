@@ -25,7 +25,7 @@ do
     {
         Console.WriteLine("Nezadali jste celé číslo. Zadejte znovu: ");
     }
-    for (first = 1; first <= last; first = first + step)
+    for (int i = 1; first <= last; first = first + step)
     {
         Console.WriteLine(first);
     }

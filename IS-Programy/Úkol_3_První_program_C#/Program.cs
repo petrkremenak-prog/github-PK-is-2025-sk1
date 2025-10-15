@@ -25,10 +25,13 @@ do
     {
         Console.WriteLine("Nezadali jste celé číslo. Zadejte znovu: ");
     }
+    Console.WriteLine("Zadali jste hodnoty první: {0}, poslední: {1}, diferenci: {2}", first, last, step);
+    Console.Write("Výsledná posloupnost: ");
     for (int i = first; i <= last; i += step)
     {
-        Console.WriteLine(i);
+        Console.Write(" {0},", i);
     }
+    Console.WriteLine();
     Console.WriteLine("Pro opakování stiskněte tlačítko a: ");
     opakovani = Console.ReadLine();
 }

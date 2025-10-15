@@ -1,4 +1,6 @@
 ﻿Console.Clear();
+Console.WriteLine("****** Program na součet cifer ******")
+Console.WriteLine("*********** Petr Křemenák ***********")
 Console.Write("Zadejte číslo, u kterého chcete sčítat cifry: ");
 if (!long.TryParse(Console.ReadLine(), out long n))
 {

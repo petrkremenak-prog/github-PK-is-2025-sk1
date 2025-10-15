@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\admin\\Documents\\IS-2025-Sk1\\Úkol_4_Program_součet_cifer\\Úkol_4_Program_součet_cifer.csproj": {}
+    "C:\\Users\\admin\\Documents\\IS-2025-Sk1\\github-PK-is-2025-sk1\\IS-Programy\\Úkol_4_Program_součet_cifer\\Úkol_4_Program_součet_cifer.csproj": {}
   },
   "projects": {
-    "C:\\Users\\admin\\Documents\\IS-2025-Sk1\\Úkol_4_Program_součet_cifer\\Úkol_4_Program_součet_cifer.csproj": {
+    "C:\\Users\\admin\\Documents\\IS-2025-Sk1\\github-PK-is-2025-sk1\\IS-Programy\\Úkol_4_Program_součet_cifer\\Úkol_4_Program_součet_cifer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\admin\\Documents\\IS-2025-Sk1\\Úkol_4_Program_součet_cifer\\Úkol_4_Program_součet_cifer.csproj",
+        "projectUniqueName": "C:\\Users\\admin\\Documents\\IS-2025-Sk1\\github-PK-is-2025-sk1\\IS-Programy\\Úkol_4_Program_součet_cifer\\Úkol_4_Program_součet_cifer.csproj",
         "projectName": "Úkol_4_Program_součet_cifer",
-        "projectPath": "C:\\Users\\admin\\Documents\\IS-2025-Sk1\\Úkol_4_Program_součet_cifer\\Úkol_4_Program_součet_cifer.csproj",
+        "projectPath": "C:\\Users\\admin\\Documents\\IS-2025-Sk1\\github-PK-is-2025-sk1\\IS-Programy\\Úkol_4_Program_součet_cifer\\Úkol_4_Program_součet_cifer.csproj",
         "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\admin\\Documents\\IS-2025-Sk1\\Úkol_4_Program_součet_cifer\\obj\\",
+        "outputPath": "C:\\Users\\admin\\Documents\\IS-2025-Sk1\\github-PK-is-2025-sk1\\IS-Programy\\Úkol_4_Program_součet_cifer\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\admin\\AppData\\Roaming\\NuGet\\NuGet.Config"

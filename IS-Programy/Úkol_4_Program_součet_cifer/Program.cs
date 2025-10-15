@@ -1,26 +1,18 @@
 ﻿Console.Clear();
 Console.Write("Zadejte číslo, u kterého chcete sčítat cifry: ");
-int user_input = int.Parse(Console.ReadLine());
-int sectene_cifry = 0;
-while (!(user_input % 10 == 0))
-    {
-        sectene_cifry++;
-        user_input--;
-    }
-while (!(user_input % 100 == 0))
+if (!long.TryParse(Console.ReadLine(), out long n))
 {
-    sectene_cifry++;
-    user_input=user_input-10;    
-    }
-while (!(user_input % 1000 == 0))
+    Console.WriteLine("Neplatný vstup.");
+    return;
+}
+long x = Math.Abs(n);
+int soucet = 0;
+
+if (x == 0) soucet = 0; // pro vstup 0
+
+while (x > 0)
 {
-    sectene_cifry++;
-    user_input=user_input-100;    
-    }
-while (!(user_input % 10000 == 0))
-{
-    sectene_cifry++;
-    user_input=user_input-1000;    
-    }
-Console.Write("Součet cifer zadaného čísla je: ");
-Console.Write(sectene_cifry);
+    soucet += (int)(x % 10);
+    x /= 10;
+}
+Console.WriteLine($"Součet cifer zadaného čísla je: {soucet}");

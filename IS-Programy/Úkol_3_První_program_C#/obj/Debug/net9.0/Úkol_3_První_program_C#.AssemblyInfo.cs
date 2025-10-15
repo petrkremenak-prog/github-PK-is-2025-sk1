@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Úkol_3_První_program_C#")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+dd650a488bcfac18d7b4a00de29625b65350cbb0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+135552c477ed4d4e82b0c6d11d07c08c32921b2c")]
 [assembly: System.Reflection.AssemblyProductAttribute("Úkol_3_První_program_C#")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Úkol_3_První_program_C#")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

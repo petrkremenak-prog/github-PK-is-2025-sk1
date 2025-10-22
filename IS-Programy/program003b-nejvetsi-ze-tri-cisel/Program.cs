@@ -41,7 +41,7 @@ do
     {
         Console.WriteLine("Největší číslo je C = {0}", C);
     }
-    Console.WriteLine("Konec programu, stiskněte a pro opakování ");
+    Console.WriteLine("Konec programu, stiskněte tlačístko a pro opakování ");
     opakovani = Console.ReadLine();
 
 } while (opakovani == "a");

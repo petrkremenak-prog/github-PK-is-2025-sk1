@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("program003a-serazeni-dvou-cisel")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+622cccb447065442e1d673f703e7f5c5d18b60a1")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+870433a0954b02de940cb8857bc6095032bf98a2")]
 [assembly: System.Reflection.AssemblyProductAttribute("program003a-serazeni-dvou-cisel")]
 [assembly: System.Reflection.AssemblyTitleAttribute("program003a-serazeni-dvou-cisel")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -26,26 +26,22 @@ do
     {
         if (A > C)
         {
-            Console.Write("Největší číslo je A = {0}", A);
+            Console.WriteLine("Největší číslo je A = {0}", A);
         }
         else
         {
-            Console.Write("Největší číslo je C = {0}", C);
+            Console.WriteLine("Největší číslo je C = {0}", C);
         }
     }
     else if (B > C)
     {
-        Console.Write("Největší číslo je B = {0}", B);
+        Console.WriteLine("Největší číslo je B = {0}", B);
     }
     else
     {
-        Console.Write("Největší číslo je C = {0}", C);
+        Console.WriteLine("Největší číslo je C = {0}", C);
     }
-
-
-
-
-    Console.WriteLine("Konec programu, stiskněte tlačítko a pro opakování ");
+    Console.WriteLine("Konec programu, stiskněte a pro opakování ");
     opakovani = Console.ReadLine();
 
 } while (opakovani == "a");

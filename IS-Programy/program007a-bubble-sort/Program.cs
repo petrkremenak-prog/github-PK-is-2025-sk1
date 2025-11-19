@@ -152,6 +152,41 @@ do
     {
         Console.Write("{0}, ", myRandNumbs[i]);
     }
+    int Second_Highest = 0;
+    for(int i = 0; i < n - 1; i++)
+    {
+        if (myRandNumbs[i] < myRandNumbs[0])
+        {
+            Second_Highest = myRandNumbs[i];
+        }
+        else
+        {
+            continue;
+        }
+    }
+    for (int i= 0; i<Second_Highest; i++)
+    {
+        for(int z = 0; z<upperBound; z++)
+        {
+            if (Second_Highest < 3)
+            {
+            Console.WriteLine("Druhé nejmenší číslo je příliš malé na vykreslení obdelníku");
+            break;
+            }
+            if(i == 0 || i == Second_Highest)
+            {
+            Console.WriteLine("*");
+            }
+            if (z == 0 || z == upperBound)
+            {
+                Console.Write("*");
+            }
+            else
+            {
+                Console.Write(" ");
+            }
+        
+        }
     Console.WriteLine("Počet celkových prohození je: {0}", celkovy_pocet_vymen);
     Console.WriteLine("Proces trval {0} sekund", mystopwatch);
     Console.WriteLine();

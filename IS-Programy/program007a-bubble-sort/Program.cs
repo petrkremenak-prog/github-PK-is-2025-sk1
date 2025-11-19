@@ -123,9 +123,11 @@ do
     }
     while(cyklove_vymeny != 0);
     Console.WriteLine("Čísla seřazená bubble-sortem V1: ");*/
+    Stopwatch mystopwatch = new Stopwatch();
     int temp = 0;
     int celkovy_pocet_vymen = 0;
     int celkovy_pocet_zkoumani = 0;
+    mystopwatch.Start();
     for (int i = 0; i<n-1; i++)
     {
         for(int z = 0; z < n-i-1; z++)
@@ -144,12 +146,14 @@ do
             }
         }
     }
+    mystopwatch.Stop();
     Console.WriteLine("Seřazená čísla pomocí bubble-sortu jsou: ");
     for (int i = 0; i < n; i++)
     {
         Console.Write("{0}, ", myRandNumbs[i]);
     }
     Console.WriteLine("Počet celkových prohození je: {0}", celkovy_pocet_vymen);
+    Console.WriteLine("Proces trval {0} sekund", mystopwatch);
     Console.WriteLine();
     Console.WriteLine("Pro opakování programu stiskněte klávesu a.");
     again = Console.ReadLine();

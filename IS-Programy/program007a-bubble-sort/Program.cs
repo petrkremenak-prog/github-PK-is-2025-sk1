@@ -125,10 +125,12 @@ do
     Console.WriteLine("Čísla seřazená bubble-sortem V1: ");*/
     int temp = 0;
     int celkovy_pocet_vymen = 0;
+    int celkovy_pocet_zkoumani = 0;
     for (int i = 0; i<n-1; i++)
     {
         for(int z = 0; z < n-i-1; z++)
         {
+            celkovy_pocet_zkoumani++;
             if (myRandNumbs[z] < myRandNumbs[z + 1])
             {
                 temp = myRandNumbs[z];

@@ -1,4 +1,6 @@
-﻿﻿﻿string again = "a";
+﻿using System.Diagnostics;
+using System.Runtime.CompilerServices;
+string again = "a";
 while (again == "a")
 {
     Console.Clear();
@@ -97,17 +99,18 @@ while (again == "a")
     Console.WriteLine("Počet lichých: {0}", oddNumbs);
     Console.WriteLine("=============================================");
     Console.WriteLine("=============================================");
-    int cyklove_vymeny = 0;
+
+/*    int cyklove_vymeny = 0;
     int celkove_vymeny = 0;
     int temp = 0;
-do
+do 
     {
         cyklove_vymeny = 0;
         for(int i=0; i<n-1; i++){
             if (myRandNumbs[i] < myRandNumbs[i + 1])
             {
                 temp = myRandNumbs[i];
-                myRandNumbs[i] = myRandNumbs[i+1];
+                myRandNumbs[i] = myRandNumbs[i+1];      První verze výměny (nedokonalá)
                 myRandNumbs[i+1] = temp;
                 cyklove_vymeny++;
                 celkove_vymeny++;
@@ -119,11 +122,31 @@ do
         }
     }
     while(cyklove_vymeny != 0);
-    Console.WriteLine("Čísla seřazená bubble-sortem: ");
+    Console.WriteLine("Čísla seřazená bubble-sortem V1: ");*/
+    int temp = 0;
+    int celkovy_pocet_vymen = 0;
+    for (int i = 0; i<n-1; i++)
+    {
+        for(int z = 0; z < n-i-1; z++)
+        {
+            if (myRandNumbs[z] < myRandNumbs[z + 1])
+            {
+                temp = myRandNumbs[z];
+                myRandNumbs[z] = myRandNumbs[z+1];
+                myRandNumbs[z+1] = temp;
+                celkovy_pocet_vymen++;
+            }
+            else
+            {
+                continue;
+            }
+        }
+    }
     for (int i = 0; i < n; i++)
     {
         Console.Write("{0}, ", myRandNumbs[i]);
     }
+    Console.WriteLine("Počet celkových prohození je: {0}", celkovy_pocet_vymen);
     Console.WriteLine();
     Console.WriteLine("Pro opakování programu stiskněte klávesu a.");
     again = Console.ReadLine();

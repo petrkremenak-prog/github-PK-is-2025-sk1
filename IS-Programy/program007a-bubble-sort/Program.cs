@@ -142,6 +142,7 @@ do
             }
         }
     }
+    Console.WriteLine("Seřazená čísla pomocí bubble-sortu jsou: ");
     for (int i = 0; i < n; i++)
     {
         Console.Write("{0}, ", myRandNumbs[i]);

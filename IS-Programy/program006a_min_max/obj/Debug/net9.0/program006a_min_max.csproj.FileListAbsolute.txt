@@ -1,0 +1,15 @@
+C:\Users\admin\Documents\IS-2025-Sk1\github-PK-is-2025-sk1\IS-Programy\program006a_min_max\obj\Debug\net9.0\program006a_min_max.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\admin\Documents\IS-2025-Sk1\github-PK-is-2025-sk1\IS-Programy\program006a_min_max\obj\Debug\net9.0\program006a_min_max.AssemblyInfoInputs.cache
+C:\Users\admin\Documents\IS-2025-Sk1\github-PK-is-2025-sk1\IS-Programy\program006a_min_max\obj\Debug\net9.0\program006a_min_max.AssemblyInfo.cs
+C:\Users\admin\Documents\IS-2025-Sk1\github-PK-is-2025-sk1\IS-Programy\program006a_min_max\obj\Debug\net9.0\program006a_min_max.csproj.CoreCompileInputs.cache
+C:\Users\admin\Documents\IS-2025-Sk1\github-PK-is-2025-sk1\IS-Programy\program006a_min_max\obj\Debug\net9.0\program006a_min_max.sourcelink.json
+C:\Users\admin\Documents\IS-2025-Sk1\github-PK-is-2025-sk1\IS-Programy\program006a_min_max\bin\Debug\net9.0\program006a_min_max.exe
+C:\Users\admin\Documents\IS-2025-Sk1\github-PK-is-2025-sk1\IS-Programy\program006a_min_max\bin\Debug\net9.0\program006a_min_max.deps.json
+C:\Users\admin\Documents\IS-2025-Sk1\github-PK-is-2025-sk1\IS-Programy\program006a_min_max\bin\Debug\net9.0\program006a_min_max.runtimeconfig.json
+C:\Users\admin\Documents\IS-2025-Sk1\github-PK-is-2025-sk1\IS-Programy\program006a_min_max\bin\Debug\net9.0\program006a_min_max.dll
+C:\Users\admin\Documents\IS-2025-Sk1\github-PK-is-2025-sk1\IS-Programy\program006a_min_max\bin\Debug\net9.0\program006a_min_max.pdb
+C:\Users\admin\Documents\IS-2025-Sk1\github-PK-is-2025-sk1\IS-Programy\program006a_min_max\obj\Debug\net9.0\program006a_min_max.dll
+C:\Users\admin\Documents\IS-2025-Sk1\github-PK-is-2025-sk1\IS-Programy\program006a_min_max\obj\Debug\net9.0\refint\program006a_min_max.dll
+C:\Users\admin\Documents\IS-2025-Sk1\github-PK-is-2025-sk1\IS-Programy\program006a_min_max\obj\Debug\net9.0\program006a_min_max.pdb
+C:\Users\admin\Documents\IS-2025-Sk1\github-PK-is-2025-sk1\IS-Programy\program006a_min_max\obj\Debug\net9.0\program006a_min_max.genruntimeconfig.cache
+C:\Users\admin\Documents\IS-2025-Sk1\github-PK-is-2025-sk1\IS-Programy\program006a_min_max\obj\Debug\net9.0\ref\program006a_min_max.dll

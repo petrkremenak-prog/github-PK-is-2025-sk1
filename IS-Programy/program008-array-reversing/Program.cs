@@ -86,11 +86,15 @@ while (again == "a")
 
     }
     Console.WriteLine();
-    Array.Reverse(myRandNumbs);
+    int[] reversed_array = new int[n];
+    for(int i=0; i<n-1; i++)
+    {
+        reversed_array[i] = myRandNumbs[n-1-i];
+    }
     Console.WriteLine("Obrácený array pseudonáhodných čísel je: ");
     for (int i=0; i<n-1; i++)
     {
-        Console.Write("{0}, ", myRandNumbs[i]);
+        Console.Write("{0}, ", reversed_array[i]);
     }
 
     Console.WriteLine();

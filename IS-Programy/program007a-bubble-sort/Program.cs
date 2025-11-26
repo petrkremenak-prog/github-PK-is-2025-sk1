@@ -152,7 +152,7 @@ do
     {
         Console.Write("{0}, ", myRandNumbs[i]);
     }
-    int Second_Highest = 0;
+    /*int Second_Highest = 0;
     for(int i = 0; i < n - 1; i++)
     {
         if (myRandNumbs[i] < myRandNumbs[0])
@@ -187,9 +187,28 @@ do
             }
         
         }
+    }*/
+    int i_value = 5;
+    int actual_rank = 1;
+    int actual_number = myRandNumbs[0];
+    int I_th_highest = 0;
+    bool found = false;
+    for(int i = 0; i<n; i++)
+    {
+        if(myRandNumbs[i] < actual_number)
+        {
+            actual_number = myRandNumbs[i];
+            actual_rank++;
+        }
+        if(actual_rank == i_value)
+        {
+            found = true;
+            I_th_highest = actual_number;
+        }
+    }
     Console.WriteLine("Počet celkových prohození je: {0}", celkovy_pocet_vymen);
     Console.WriteLine("Proces trval {0} sekund", mystopwatch);
-    Console.WriteLine();
+    Console.WriteLine("Ité nejvyšší číslo je {0}", I_th_highest);
     Console.WriteLine("Pro opakování programu stiskněte klávesu a.");
     again = Console.ReadLine();
 }

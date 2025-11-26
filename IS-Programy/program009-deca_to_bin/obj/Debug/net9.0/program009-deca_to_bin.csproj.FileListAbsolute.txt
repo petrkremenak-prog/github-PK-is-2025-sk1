@@ -1,0 +1,15 @@
+C:\Users\admin\Documents\IS-2025-Sk1\github-PK-is-2025-sk1\IS-Programy\program009-deca_to_bin\bin\Debug\net9.0\program009-deca_to_bin.exe
+C:\Users\admin\Documents\IS-2025-Sk1\github-PK-is-2025-sk1\IS-Programy\program009-deca_to_bin\bin\Debug\net9.0\program009-deca_to_bin.deps.json
+C:\Users\admin\Documents\IS-2025-Sk1\github-PK-is-2025-sk1\IS-Programy\program009-deca_to_bin\bin\Debug\net9.0\program009-deca_to_bin.runtimeconfig.json
+C:\Users\admin\Documents\IS-2025-Sk1\github-PK-is-2025-sk1\IS-Programy\program009-deca_to_bin\bin\Debug\net9.0\program009-deca_to_bin.dll
+C:\Users\admin\Documents\IS-2025-Sk1\github-PK-is-2025-sk1\IS-Programy\program009-deca_to_bin\bin\Debug\net9.0\program009-deca_to_bin.pdb
+C:\Users\admin\Documents\IS-2025-Sk1\github-PK-is-2025-sk1\IS-Programy\program009-deca_to_bin\obj\Debug\net9.0\program009-deca_to_bin.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\admin\Documents\IS-2025-Sk1\github-PK-is-2025-sk1\IS-Programy\program009-deca_to_bin\obj\Debug\net9.0\program009-deca_to_bin.AssemblyInfoInputs.cache
+C:\Users\admin\Documents\IS-2025-Sk1\github-PK-is-2025-sk1\IS-Programy\program009-deca_to_bin\obj\Debug\net9.0\program009-deca_to_bin.AssemblyInfo.cs
+C:\Users\admin\Documents\IS-2025-Sk1\github-PK-is-2025-sk1\IS-Programy\program009-deca_to_bin\obj\Debug\net9.0\program009-deca_to_bin.csproj.CoreCompileInputs.cache
+C:\Users\admin\Documents\IS-2025-Sk1\github-PK-is-2025-sk1\IS-Programy\program009-deca_to_bin\obj\Debug\net9.0\program009-deca_to_bin.sourcelink.json
+C:\Users\admin\Documents\IS-2025-Sk1\github-PK-is-2025-sk1\IS-Programy\program009-deca_to_bin\obj\Debug\net9.0\program009-deca_to_bin.dll
+C:\Users\admin\Documents\IS-2025-Sk1\github-PK-is-2025-sk1\IS-Programy\program009-deca_to_bin\obj\Debug\net9.0\refint\program009-deca_to_bin.dll
+C:\Users\admin\Documents\IS-2025-Sk1\github-PK-is-2025-sk1\IS-Programy\program009-deca_to_bin\obj\Debug\net9.0\program009-deca_to_bin.pdb
+C:\Users\admin\Documents\IS-2025-Sk1\github-PK-is-2025-sk1\IS-Programy\program009-deca_to_bin\obj\Debug\net9.0\program009-deca_to_bin.genruntimeconfig.cache
+C:\Users\admin\Documents\IS-2025-Sk1\github-PK-is-2025-sk1\IS-Programy\program009-deca_to_bin\obj\Debug\net9.0\ref\program009-deca_to_bin.dll

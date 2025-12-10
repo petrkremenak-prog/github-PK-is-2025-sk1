@@ -65,6 +65,7 @@ static ulong vypocitat_NSN (ulong a, ulong b, ulong NSD)
 static void Vypis_hodnot (ulong a, ulong b, ulong NSD, ulong NSN)
 {
     Console.WriteLine();
+    Console.ForegroundColor = ConsoleColor.DarkRed;
     Console.WriteLine("NSD čísel {0} a {1} je {2}", a, b, NSD);
     Console.WriteLine("NSN čísel {0} a {1} je {2}", a, b, NSN);
     Console.WriteLine();

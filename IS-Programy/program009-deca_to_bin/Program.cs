@@ -19,12 +19,12 @@ do
     {
         Console.WriteLine("Nezadali jste celé číslo. Zadejte znovu: ");
     }
-    for (int i = 1; first <= last; first = first + step)
+    for (int z = 1; first <= last; first = first + step)
     {
         Console.WriteLine(first);
     }
-    //Výpočet a vypsání posledního čísla ve dvojkové soustavě
-int buffer = last;
+    //Výpočet a vypsání posledního čísla ve dvojkové soustavě - Zabijácký postup
+/*int buffer = last;
 string bin = "";
 
 if (buffer == 0)
@@ -42,8 +42,24 @@ else
 }
 
 Console.WriteLine("Výpis posledního čísla ve dvojkové soustavě: " + bin);
-
-    
+*/
+uint Binarni_prevod;
+uint[] Myarray = new uint[32];
+while (!uint.TryParse(Console.ReadLine(), out Binarni_prevod))
+    {
+        Console.WriteLine("Nezadali jste celé číslo. Zadejte znovu: ");
+    }
+uint temporary = Binarni_prevod;
+uint i;
+for (i=0; temporary >= 1; i++)
+    {
+        Myarray[i]=temporary%2;
+        temporary/=2;
+    }
+for (uint j = i; j > 0; j--)
+    {
+        Console.Write(Myarray[j]);
+    }
     Console.WriteLine("Pro opakování stiskněte tlačítko a: ");
     opakovani = Console.ReadLine();
 }

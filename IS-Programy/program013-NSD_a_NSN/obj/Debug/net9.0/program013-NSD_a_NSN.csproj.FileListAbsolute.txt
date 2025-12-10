@@ -1,0 +1,15 @@
+C:\Users\admin\Documents\IS-2025-Sk1\github-PK-is-2025-sk1\IS-Programy\program013-NSD_a_NSN\bin\Debug\net9.0\program013-NSD_a_NSN.exe
+C:\Users\admin\Documents\IS-2025-Sk1\github-PK-is-2025-sk1\IS-Programy\program013-NSD_a_NSN\bin\Debug\net9.0\program013-NSD_a_NSN.deps.json
+C:\Users\admin\Documents\IS-2025-Sk1\github-PK-is-2025-sk1\IS-Programy\program013-NSD_a_NSN\bin\Debug\net9.0\program013-NSD_a_NSN.runtimeconfig.json
+C:\Users\admin\Documents\IS-2025-Sk1\github-PK-is-2025-sk1\IS-Programy\program013-NSD_a_NSN\bin\Debug\net9.0\program013-NSD_a_NSN.dll
+C:\Users\admin\Documents\IS-2025-Sk1\github-PK-is-2025-sk1\IS-Programy\program013-NSD_a_NSN\bin\Debug\net9.0\program013-NSD_a_NSN.pdb
+C:\Users\admin\Documents\IS-2025-Sk1\github-PK-is-2025-sk1\IS-Programy\program013-NSD_a_NSN\obj\Debug\net9.0\program013-NSD_a_NSN.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\admin\Documents\IS-2025-Sk1\github-PK-is-2025-sk1\IS-Programy\program013-NSD_a_NSN\obj\Debug\net9.0\program013-NSD_a_NSN.AssemblyInfoInputs.cache
+C:\Users\admin\Documents\IS-2025-Sk1\github-PK-is-2025-sk1\IS-Programy\program013-NSD_a_NSN\obj\Debug\net9.0\program013-NSD_a_NSN.AssemblyInfo.cs
+C:\Users\admin\Documents\IS-2025-Sk1\github-PK-is-2025-sk1\IS-Programy\program013-NSD_a_NSN\obj\Debug\net9.0\program013-NSD_a_NSN.csproj.CoreCompileInputs.cache
+C:\Users\admin\Documents\IS-2025-Sk1\github-PK-is-2025-sk1\IS-Programy\program013-NSD_a_NSN\obj\Debug\net9.0\program013-NSD_a_NSN.sourcelink.json
+C:\Users\admin\Documents\IS-2025-Sk1\github-PK-is-2025-sk1\IS-Programy\program013-NSD_a_NSN\obj\Debug\net9.0\program013-NSD_a_NSN.dll
+C:\Users\admin\Documents\IS-2025-Sk1\github-PK-is-2025-sk1\IS-Programy\program013-NSD_a_NSN\obj\Debug\net9.0\refint\program013-NSD_a_NSN.dll
+C:\Users\admin\Documents\IS-2025-Sk1\github-PK-is-2025-sk1\IS-Programy\program013-NSD_a_NSN\obj\Debug\net9.0\program013-NSD_a_NSN.pdb
+C:\Users\admin\Documents\IS-2025-Sk1\github-PK-is-2025-sk1\IS-Programy\program013-NSD_a_NSN\obj\Debug\net9.0\program013-NSD_a_NSN.genruntimeconfig.cache
+C:\Users\admin\Documents\IS-2025-Sk1\github-PK-is-2025-sk1\IS-Programy\program013-NSD_a_NSN\obj\Debug\net9.0\ref\program013-NSD_a_NSN.dll

@@ -1,0 +1,15 @@
+C:\Users\admin\Documents\IS-2025-Sk1\github-PK-is-2025-sk1\IS-Programy\program014-Kombinovana\bin\Debug\net9.0\program014-Kombinovana.exe
+C:\Users\admin\Documents\IS-2025-Sk1\github-PK-is-2025-sk1\IS-Programy\program014-Kombinovana\bin\Debug\net9.0\program014-Kombinovana.deps.json
+C:\Users\admin\Documents\IS-2025-Sk1\github-PK-is-2025-sk1\IS-Programy\program014-Kombinovana\bin\Debug\net9.0\program014-Kombinovana.runtimeconfig.json
+C:\Users\admin\Documents\IS-2025-Sk1\github-PK-is-2025-sk1\IS-Programy\program014-Kombinovana\bin\Debug\net9.0\program014-Kombinovana.dll
+C:\Users\admin\Documents\IS-2025-Sk1\github-PK-is-2025-sk1\IS-Programy\program014-Kombinovana\bin\Debug\net9.0\program014-Kombinovana.pdb
+C:\Users\admin\Documents\IS-2025-Sk1\github-PK-is-2025-sk1\IS-Programy\program014-Kombinovana\obj\Debug\net9.0\program014-Kombinovana.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\admin\Documents\IS-2025-Sk1\github-PK-is-2025-sk1\IS-Programy\program014-Kombinovana\obj\Debug\net9.0\program014-Kombinovana.AssemblyInfoInputs.cache
+C:\Users\admin\Documents\IS-2025-Sk1\github-PK-is-2025-sk1\IS-Programy\program014-Kombinovana\obj\Debug\net9.0\program014-Kombinovana.AssemblyInfo.cs
+C:\Users\admin\Documents\IS-2025-Sk1\github-PK-is-2025-sk1\IS-Programy\program014-Kombinovana\obj\Debug\net9.0\program014-Kombinovana.csproj.CoreCompileInputs.cache
+C:\Users\admin\Documents\IS-2025-Sk1\github-PK-is-2025-sk1\IS-Programy\program014-Kombinovana\obj\Debug\net9.0\program014-Kombinovana.sourcelink.json
+C:\Users\admin\Documents\IS-2025-Sk1\github-PK-is-2025-sk1\IS-Programy\program014-Kombinovana\obj\Debug\net9.0\program014-Kombinovana.dll
+C:\Users\admin\Documents\IS-2025-Sk1\github-PK-is-2025-sk1\IS-Programy\program014-Kombinovana\obj\Debug\net9.0\refint\program014-Kombinovana.dll
+C:\Users\admin\Documents\IS-2025-Sk1\github-PK-is-2025-sk1\IS-Programy\program014-Kombinovana\obj\Debug\net9.0\program014-Kombinovana.pdb
+C:\Users\admin\Documents\IS-2025-Sk1\github-PK-is-2025-sk1\IS-Programy\program014-Kombinovana\obj\Debug\net9.0\program014-Kombinovana.genruntimeconfig.cache
+C:\Users\admin\Documents\IS-2025-Sk1\github-PK-is-2025-sk1\IS-Programy\program014-Kombinovana\obj\Debug\net9.0\ref\program014-Kombinovana.dll

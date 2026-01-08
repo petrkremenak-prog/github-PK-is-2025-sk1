@@ -118,7 +118,7 @@ while (again == "a")
     {
         Console.Write("{0}; ", myRandNumbs[i]);
     }*/
-    int pocet_serazeni=0;
+    /*int pocet_serazeni=0;
     int selection_index=0;
     do
     {
@@ -141,9 +141,60 @@ while (again == "a")
     for (int i=0; i < n-1; i++)
     {
         Console.Write("{0}; ", myRandNumbs[i]);
+    }*/
+    for (int i = 0; i < myRandNumbs.Length - 1; i++)
+    {
+        int j = i + 1;
+        int temp = myRandNumbs[j];
+        while (j > 0 && temp > myRandNumbs[j - 1])
+        {
+            myRandNumbs[j] = myRandNumbs[j - 1];
+            j--;
+        }
+        myRandNumbs[j] = temp;
     }
-
-
+    Console.WriteLine();
+    Console.Write("Pole po seřazení Insertion Sort: ");
+    for (int i = 0; i < n - 1; i++)
+    {
+        Console.Write("{0}; ", myRandNumbs[i]);
+    }
+    int druhe = 0;
+    int treti = 0;
+    int osme = 0;
+    int p = 1;
+    int median;
+    for (int i = 0; i < n - 1; i++)
+    {
+        if (myRandNumbs[i+1] < myRandNumbs[i])
+        {
+            p++;
+        }
+        if (p == 2)
+        {
+            druhe = myRandNumbs[i+1];
+        }
+        if (p == 3)
+        {
+            treti = myRandNumbs[i+1];
+        }
+        if (p == 8)
+        {
+            osme = myRandNumbs[i+1];
+        }
+    }
+    if (n % 2 == 0)
+    {
+        median = (myRandNumbs[n/2]+myRandNumbs[(n/2)+1])/2;
+    }
+    else
+    {
+        median = myRandNumbs[n/2];
+    }
+    Console.WriteLine("Druhé největší číslo je: {0}", druhe);
+    Console.WriteLine("Třetí největší číslo je: {0}", treti);
+    Console.WriteLine("Osmé největší číslo je: {0}", osme);
+    Console.WriteLine("Medián je: {0}", median);
     Console.WriteLine();
     Console.WriteLine("Pro opakování programu stiskněte klávesu a.");
     again = Console.ReadLine();

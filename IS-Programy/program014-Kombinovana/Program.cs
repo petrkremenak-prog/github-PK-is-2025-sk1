@@ -164,7 +164,7 @@ while (again == "a")
     int osme = 0;
     int p = 1;
     int median;
-    for (int i = 0; i < n - 1; i++)
+    for (int i = 0; i < n; i++)
     {
         if (myRandNumbs[i+1] < myRandNumbs[i])
         {
@@ -181,16 +181,32 @@ while (again == "a")
         if (p == 8)
         {
             osme = myRandNumbs[i+1];
+            break;
         }
     }
     if (n % 2 == 0)
     {
-        median = (myRandNumbs[n/2]+myRandNumbs[(n/2)+1])/2;
+        median = (myRandNumbs[n/2]+myRandNumbs[(n/2)-1])/2;
     }
     else
     {
         median = myRandNumbs[n/2];
     }
+    uint osme_copy = Convert.ToUInt32(osme);
+    uint[] Osme_bin = new uint[32];
+    int z;
+    for (z=0; osme_copy!=0; z++)
+    {
+        uint zbytek = osme_copy % 2;
+        osme_copy = (osme_copy/2);
+        Osme_bin[z] = zbytek;
+    }
+    Console.WriteLine();
+    for (int j = z-1; j >= 0; j--)
+    {
+        Console.Write("{0}", Osme_bin[j]);
+    }
+
     Console.WriteLine("Druhé největší číslo je: {0}", druhe);
     Console.WriteLine("Třetí největší číslo je: {0}", treti);
     Console.WriteLine("Osmé největší číslo je: {0}", osme);

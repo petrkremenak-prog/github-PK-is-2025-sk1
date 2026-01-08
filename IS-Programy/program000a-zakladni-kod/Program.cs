@@ -1,35 +1,63 @@
-﻿string opakovani = "a";
-do
+﻿﻿string again = "a";
+while (again == "a")
 {
     Console.Clear();
-    Console.WriteLine("****** Výpis číselných řad by Petr Křemenák ******");
-    /* Console.Write("Zadejte první číslo v řadovém výpisu: ");
-     int first = int.Parse(Console.ReadLine()); Takhle ne
-    Console.Write("Zadejte poslední číslo v řadě: ");
-    int last = int.Parse(Console.ReadLine());
-    Console.Write("Zadejte diferenci: ");
-    int step = int.Parse(Console.ReadLine());*/
-    Console.Write("Zadejte první číslo v řadovém výpisu (Celé číslo): ");
-    int first, last, step;
-    while (!int.TryParse(Console.ReadLine(), out first))
+    Console.WriteLine("*******************************************");
+    Console.WriteLine("***** Generátor pseudonáhodných čísel *****");
+    Console.WriteLine("*******************************************");
+    Console.WriteLine("*************** Křemenák Petr ***************");
+    Console.WriteLine("*******************************************");
+    Console.WriteLine();
+    
+    Console.Write("Zadejte počet generovaných čísel (celé číslo): ");
+    int n;
+
+    while (!int.TryParse(Console.ReadLine(), out n))
     {
-        Console.WriteLine("Nezadali jste celé číslo. Zadejte znovu: ");
+        Console.Write("Nezadali jste celé číslo. Zadejte znovu počet čísel: ");
     }
-    Console.Write("Zadejte poslední číslo v řadě: ");
-    while (!int.TryParse(Console.ReadLine(), out last))
+
+    Console.Write("Zadejte dolní mez (celé číslo): ");
+    int lowerBound;
+
+    while (!int.TryParse(Console.ReadLine(), out lowerBound))
     {
-        Console.WriteLine("Nezadali jste celé číslo. Zadejte znovu: ");
+        Console.Write("Nezadali jste celé číslo. Zadejte znovu dolní mez: ");
     }
-    Console.Write("Zadejte diferenci: ");
-    while (!int.TryParse(Console.ReadLine(), out step))
+
+    Console.Write("Zadejte horní mez (celé číslo): ");
+    int upperBound;
+
+    while (!int.TryParse(Console.ReadLine(), out upperBound))
     {
-        Console.WriteLine("Nezadali jste celé číslo. Zadejte znovu: ");
+        Console.Write("Nezadali jste celé číslo. Zadejte znovu horní mez: ");
     }
-    for (int i = 1; first <= last; first = first + step)
+
+    Console.WriteLine();
+    Console.WriteLine("================================================");
+    Console.WriteLine("Zadané hodnoty:");
+    Console.WriteLine("Počet čísel: {0}; Dolní mez: {1}; Horní mez: {2}", n, lowerBound, upperBound);
+    Console.WriteLine("================================================");
+
+    // Deklarace pole
+    int[] myRandNumbs = new int[n];
+
+    //Random myRandNumb = new Random(50); // generování stejných čísel při stejném vstupu - hodí se pro testování
+    Random myRandNumb = new Random();
+
+    Console.WriteLine();
+    Console.WriteLine("=============================================");
+    Console.WriteLine("Pseudonáhodná čísla:");
+    for (int i = 0; i < n ; i++)
     {
-        Console.WriteLine(first);
+        myRandNumbs[i] = myRandNumb.Next(lowerBound, upperBound+1);
+        Console.Write("{0}; ", myRandNumbs[i]);
     }
-    Console.WriteLine("Pro opakování stiskněte tlačítko a: ");
-    opakovani = Console.ReadLine();
+    
+
+    Console.WriteLine();
+    Console.WriteLine("Pro opakování programu stiskněte klávesu a.");
+    again = Console.ReadLine();
+
+
 }
-while (opakovani == "a");

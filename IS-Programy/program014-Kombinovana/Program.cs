@@ -124,7 +124,7 @@ while (again == "a")
     {
         int temp = 0;
         selection_index=pocet_serazeni;
-        for (int i=pocet_serazeni; i<n-1; i++)
+        for (int i=pocet_serazeni; i<n; i++)
         {
             if (myRandNumbs[selection_index] < myRandNumbs[i])
             {
@@ -155,16 +155,19 @@ while (again == "a")
     }
     Console.WriteLine();
     Console.Write("Pole po seřazení Insertion Sort: ");
-    for (int i = 0; i < n - 1; i++)
+    for (int i = 0; i < n; i++)
     {
         Console.Write("{0}; ", myRandNumbs[i]);
     }
     int druhe = 0;
     int treti = 0;
     int osme = 0;
+    bool osme_existuje = false;
+    bool druhe_existuje = false;
+    bool treti_existuje = false;
     int p = 1;
     int median;
-    for (int i = 0; i < n; i++)
+    for (int i = 0; i < n-1; i++)
     {
         if (myRandNumbs[i+1] < myRandNumbs[i])
         {
@@ -173,14 +176,17 @@ while (again == "a")
         if (p == 2)
         {
             druhe = myRandNumbs[i+1];
+            druhe_existuje = true;
         }
         if (p == 3)
         {
+            treti_existuje = true;
             treti = myRandNumbs[i+1];
         }
         if (p == 8)
         {
             osme = myRandNumbs[i+1];
+            osme_existuje = true;
             break;
         }
     }
@@ -201,15 +207,41 @@ while (again == "a")
         osme_copy = (osme_copy/2);
         Osme_bin[z] = zbytek;
     }
+    if(osme == 0)
+    {
+        Console.WriteLine("Osmé největší je nula");
+    }
     Console.WriteLine();
+    Console.Write("Binární výpis osmého největšího čísla je: ");
     for (int j = z-1; j >= 0; j--)
     {
         Console.Write("{0}", Osme_bin[j]);
     }
+    Console.WriteLine();
 
-    Console.WriteLine("Druhé největší číslo je: {0}", druhe);
-    Console.WriteLine("Třetí největší číslo je: {0}", treti);
-    Console.WriteLine("Osmé největší číslo je: {0}", osme);
+    if (druhe_existuje){
+        Console.WriteLine("Druhé největší číslo je: {0}", druhe);
+    }
+    else
+    {
+        Console.WriteLine("Druhé neexistuje");
+    }
+    if (treti_existuje)
+    {
+        Console.WriteLine("Třetí největší číslo je: {0}", treti);
+    }
+    else
+    {
+        Console.WriteLine("Třetí neexistuje");
+    }
+    if (osme_existuje)
+    {
+        Console.WriteLine("Osmé největší číslo je: {0}", osme);
+    }
+    else
+    {
+        Console.WriteLine("Osmé neexistuje");
+    }
     Console.WriteLine("Medián je: {0}", median);
     Console.WriteLine();
     Console.WriteLine("Pro opakování programu stiskněte klávesu a.");
